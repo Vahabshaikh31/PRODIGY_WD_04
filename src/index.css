@@ -1,30 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
 }
 
 @font-face {
-    font-family: 'Avenir Light';
-    src: url('../public/Avenir Light.ttf') format('woff2'),
-        url('../public/Avenir Light.ttf') format('woff');
+  font-family: 'Avenir Light';
+  src: url('../public/Avenir Light.ttf') format('woff2'),
+    url('../public/Avenir Light.ttf') format('woff');
 }
 
 html {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 body {
-    font-family: 'Avenir Light', sans-serif;
+  font-family: 'Avenir Light', sans-serif;
 }
 
-:root{
-    --red: #c2274b;
-    --wheat: #fff0ec;
-    --grey: #b4c8dc;
-    --blue: #556b8d;
-    --headfont: "Forum", serif;
+:root {
+  --red: #c2274b;
+  --wheat: #fff0ec;
+  --grey: #b4c8dc;
+  --blue: #556b8d;
+  --headfont: "Forum", serif;
 }

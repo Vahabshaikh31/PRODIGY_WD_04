@@ -1,9 +1,12 @@
 .main {
-    background-color: rgba(245, 245, 245, 0.333);
+    background-color: rgb(245, 245, 245);
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 20px;
+    z-index: 11111;
+    position: fixed;
+    width: 100%;
 }
 
 .left_nav {

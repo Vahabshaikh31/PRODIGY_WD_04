@@ -1,2 +1,72 @@
+.hero_main {
+    height: 80rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.Text {
+    height: 55rem;
+    width: 45rem;
+}
 
+.back {
+    background-color: var(--wheat);
+    width: 40vw;
+    height: 80rem;
+    position: absolute;
+    z-index: -10;
+    left: 0;
+}
+
+.Card {
+    margin-top: 10rem;
+}
+
+.h1 {
+    font-size: 9rem;
+    margin-left: 1rem;
+    margin-top: 7rem;
+}
+
+.h3 {
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+
+.Left_s {
+    margin-left: 2rem;
+}
+
+.Resume_btn, .Project_btn {
+    font-size: 2rem;
+    padding: .7rem;
+    border-radius: 20px;
+    border: none;
+    width: 15rem;
+    cursor: pointer;
+}
+
+.Resume_btn {
+    background-color: var(--red);
+}
+
+.Project_btn {
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    gap: 2rem;
+}
+
+.des {
+    font-size: 2rem;
+    margin-top: 6rem;
+    margin-left: 1rem;
+    text-align: left;
+}
