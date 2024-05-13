@@ -1,0 +1,39 @@
+.main {
+    background-color: rgba(245, 245, 245, 0.333);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 20px;
+}
+
+.left_nav {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    height: 8rem;
+    font-size: 1.5rem;
+}
+
+.right_nav {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 3rem;
+}
+
+.des{
+    margin-left: 2rem; 
+    margin-top: 3rem;
+}
+.link:hover{
+    color: var(--red);
+}
+
