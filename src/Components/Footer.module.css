@@ -1,0 +1,52 @@
+.Footer_main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .footer_left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Footer_tag {
+    font-size: 2rem;
+  }
+  
+  .footer_right {
+    display: flex;
+    gap: 5rem;
+  }
+  
+  .footer_email {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    gap: 1rem;
+  }
+  
+  .footer_link {
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .Footer_links {
+    height: 3rem;
+    width: 3rem;
+  }
+  
+  .Footer_email {
+    display: flex;
+  }
+  
+  .Footer_l {
+    display: flex;
+    gap: 1rem;
+  }
+  

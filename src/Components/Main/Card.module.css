@@ -18,6 +18,11 @@
     justify-content: center;
 }
 
+.link_img {
+    height: 5rem;
+    width: 3.7rem; 
+}
+
 .name {
     display: flex;
     justify-content: center;
@@ -26,21 +31,25 @@
     text-align: center;
     font-size: 2.9rem;
     margin-top: 1rem;
+    font-family: var(--forum);
+    font-weight: bold;
 }
 
 .line {
     background-color: aqua;
     width: 8rem;
-    height: .2rem;
+    height: 0.2rem;
     margin-top: 1.5rem;
 }
 
 .des {
-    font-size: 3rem;
+    font-size: 2.3rem;
     text-align: center;
-    margin-top: 1rem;
-    transform: scale(.6);
+    margin-top: 3.5rem;
+    transform: scale(0.8);
     font-weight: 100;
+    letter-spacing: 5px;
+    font-family: var(--avenir);
 }
 
 .social_div {

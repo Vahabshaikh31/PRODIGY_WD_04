@@ -24,19 +24,33 @@
     justify-content: center;
     font-size: 1.8rem;
     cursor: pointer;
+
+    font-weight: 100;
 }
 
 .heading {
     font-weight: bold;
     font-size: 2.5rem;
     margin-left: 3rem;
+    font-family: var(--forum);
 }
 
 .des{
     margin-left: 2rem; 
     margin-top: 3rem;
+    
 }
 .link:hover{
     color: var(--red);
 }
+
+
+
+
+.link:active {
+    color: #c2274b;
+    font-weight: bold;
+  }
+  
+
 

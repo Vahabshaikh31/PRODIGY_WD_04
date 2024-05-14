@@ -19,9 +19,18 @@ const Card = () => {
                 Mern stack Developer java Developer
             </div>
             <div className={style.social_div}>
-                <img src={github} alt="" />
-                <img src={HackerRank} alt="" />
-                <img src={Linked} alt="" />
+
+                <a target='vahab' href="https://github.com/Vahabshaikh31">
+                    <img src={github} alt="" />
+                </a>
+
+                <a target='vahab' href="https://www.hackerrank.com/profile/svahab33">
+                    <img className={style.link_img} src={HackerRank} alt="" />
+                </a>
+
+                <a target='vahab' href="https://www.linkedin.com/in/abdulvahab-shaikh-aa3464305/">
+                    <img src={Linked} alt="" />
+                </a>
             </div>
         </div>
     )

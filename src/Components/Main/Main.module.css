@@ -1,5 +1,5 @@
 .hero_main {
-    height: 80rem;
+    height: 100rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,19 +19,19 @@
     left: 0;
 }
 
-.Card {
-    margin-top: 10rem;
-}
-
 .h1 {
     font-size: 9rem;
     margin-left: 1rem;
     margin-top: 7rem;
+    font-weight: bold;
+    font-family: var(--forum);
 }
 
 .h3 {
     font-size: 3rem;
     margin-left: 1rem;
+    font-family: var(--forum);
+    font-weight: 600;
 }
 
 .Left_s {
@@ -40,11 +40,12 @@
 
 .Resume_btn, .Project_btn {
     font-size: 2rem;
-    padding: .7rem;
+    padding: .5rem;
     border-radius: 20px;
     border: none;
-    width: 15rem;
+    width: 17rem;
     cursor: pointer;
+    outline: none;
 }
 
 .Resume_btn {
@@ -69,4 +70,12 @@
     margin-top: 6rem;
     margin-left: 1rem;
     text-align: left;
+    font-weight: 400;
+    font-family: var(--avenir);
+}
+
+.footer {
+    z-index: 1;
+    display: flex;
+    align-items: center;
 }
